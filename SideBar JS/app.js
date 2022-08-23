@@ -5,3 +5,6 @@ const sidebar = document.querySelector('.sidebar')
 sidebarToggle.addEventListener('click', function () {
     sidebar.classList.toggle('show-sidebar')
 })
+button.addEventListener('click',function(){
+ sidebar.classList.remove('show-sidebar')
+}
